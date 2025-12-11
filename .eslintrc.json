@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "playwright"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:playwright/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/no-floating-promises": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "playwright/expect-expect": "off",
+    "playwright/no-wait-for-timeout": "warn",
+    "playwright/no-focused-test": "error"
+  }
+}

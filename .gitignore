@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Logs and Temp files
+*.log
+*.tmp
+*.cache
+*.swp
+.DS_Store
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Playwright environment
+.env
+
+# Auth Data
+.auth
