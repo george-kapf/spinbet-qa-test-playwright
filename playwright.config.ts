@@ -14,6 +14,7 @@ export default defineConfig({
     timeout: 30_000,
   },
   use: {
+    video: 'on-first-retry',
     navigationTimeout: 60_000,
     actionTimeout: 10_000,
     baseURL: 'https://stage.spinbet.com/en-nz',
