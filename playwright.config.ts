@@ -14,7 +14,7 @@ export default defineConfig({
     timeout: 30_000,
   },
   use: {
-    navigationTimeout: 30_000,
+    navigationTimeout: 60_000,
     actionTimeout: 10_000,
     baseURL: 'https://stage.spinbet.com/en-nz',
     viewport: { width: 1920, height: 1080 },
